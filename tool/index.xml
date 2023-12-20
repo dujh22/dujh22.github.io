@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Med-Eval</title>
+    <link>https://dujh22.github.io/tool/</link>
+    <description>Recent content in Tools on Med-Eval</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Dec 2023 19:53:17 +0800</lastBuildDate>
+    <atom:link href="https://dujh22.github.io/tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>测评工具</title>
+      <link>https://dujh22.github.io/tool/%E6%B5%8B%E8%AF%84%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Wed, 20 Dec 2023 19:53:17 +0800</pubDate>
+      <guid>https://dujh22.github.io/tool/%E6%B5%8B%E8%AF%84%E5%B7%A5%E5%85%B7/</guid>
+      <description>数据集定义 MedQA-USMLE是一个基于美国医疗执照考试(USMLE)的多项选择问题回答数据集。数据来自专业医疗委员会的考试，涵盖了各种医疗领域的问题。 数据提供者 Computer Science and Artificial Intelligence,MITTongji Medical College,HUST(华中科技大学同济医学院 ) 数据规模/构成 数据集QA包含三种语言：英语：12723个简体中文：34251个繁体中文：14123个 数据维度 Question:问题描述Options:选项与正确答案Evidence:依据与解释 Question: A 57-year-old man presents to his primary care physician with e 2-month history of right upper and lower extremity weakness. He noticed the weakness when he started falling far more frequently while running errands.Since then,he has had increasing difficulty with walking and lifting objects.His past medical history is significant only for well-controlled hypertension,but he says that some members of his family have had musculoskeletal problems.</description>
+    </item>
+  </channel>
+</rss>

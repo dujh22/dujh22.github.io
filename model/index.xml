@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Models on Med-Eval</title>
+    <link>https://dujh22.github.io/model/</link>
+    <description>Recent content in Models on Med-Eval</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Dec 2023 19:37:38 +0800</lastBuildDate>
+    <atom:link href="https://dujh22.github.io/model/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>医学大模型榜单</title>
+      <link>https://dujh22.github.io/model/%E5%8C%BB%E5%AD%A6%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%A6%9C%E5%8D%95/</link>
+      <pubDate>Wed, 20 Dec 2023 19:37:38 +0800</pubDate>
+      <guid>https://dujh22.github.io/model/%E5%8C%BB%E5%AD%A6%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%A6%9C%E5%8D%95/</guid>
+      <description>模型 所在机构 发布时间 开源地址 所用数据 Med-Flamingo 一种适用于医学领域的多模态少样本学习器 美国斯坦福大学- -基于OpenFlamingo-9B -对出版物和教科书中成对和交错的医学图像-文本数据进行预训练-4K数据集 BioMedLM（原PubMed GPT 2.7B） 用于生物医学文本的特定领域大型语言模型 美国斯坦福大学-基础模型研究中心CRFM 2022年12月 https://github.com/stanford-crfm/BioMedLM -基于HuggingFace GPT模型 -2.7B的参数和1024个标记的最大上下文长度 -数据是Pile数据集的部分——PubMed Abstracts和PubMed Central：涵盖由美国国立卫生研究院策划的来自生物医学文献的 16 万份摘要和 5 万篇全文文章的集合 BioGPT 大规模生物医学文献上进行预训练的特定领域生成式 Transformer 语言模型 微软 https://github.com/microsoft/BioGPT -GPT2作为骨干模型 -从 PubMed 收集文章，PubMed 是一个生物医学研究领域的大型数据库，团队共产生1500万条带有标题和摘要的内容 -使用 3.57 亿个参数改进了预训练的基于 GPT-2 的模型，用于下游任务：端到端关系提取、文本生成、问题回答和文档分类 Med-PaLM2 5400亿参数的转换器语言模型 谷歌 文心一言 百度 2023年2月 对中国医疗信息数据提供商GBI Health的并购，通过GBI与其类ChatGPT产品“文心一言”等的结合 BioMedGPT-1.6B 生物医药领域基础模型 清华大学-智能产业研究院 2023年4月19日 -把分子语言中蕴含的知识以及长期以来通过实验总结的文本和知识图谱信息融合压缩到一个大规模语言模型中，从而实现从序列模式中学习生物结构和功能规律，通过AI解码生命语言 OpenBioMed 清华大学-智能产业研究院 2023年8月14日 https://github.com/BioFM/OpenBioMed -基于Llama2的大型生成语言模型 -从Llama2-7B-Chat与S2ORC语料库中的数百万篇生物医学论文进行了微调 -开源轻量版BioMedGPT, 知识图谱&amp;amp;20+生物研究领域多模态预训练模型 本草Huatuo 哈尔滨工业大学 2023年3月31日 https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese -经过中文医学指令精调/指令微调(Instruct-tuning) 的LLaMA-7B模型 -医学知识图谱和GPT3.</description>
+    </item>
+    <item>
+      <title>通用大模型榜单</title>
+      <link>https://dujh22.github.io/model/%E9%80%9A%E7%94%A8%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%A6%9C%E5%8D%95/</link>
+      <pubDate>Wed, 20 Dec 2023 18:47:46 +0800</pubDate>
+      <guid>https://dujh22.github.io/model/%E9%80%9A%E7%94%A8%E5%A4%A7%E6%A8%A1%E5%9E%8B%E6%A6%9C%E5%8D%95/</guid>
+      <description> 模型 开源地址 参数规模 所用数据 ChatGLM-6B https://github.com/THUDM/ChatGLM-6B 62亿 1T 标识符的中英双语训练 ChatGLM2-6B https://github.com/THUDM/ChatGLM2-6B 1.4万亿中英文tokens数据集上训练，并做了模型对齐+SFT GLM-130B https://github.com/THUDM/GLM-130B 1300亿 4000 亿个文本token训练+SFT Chinese-LLaMA-Alpaca https://github.com/ymcui/Chinese-LLaMA-Alpaca 在原版LLaMA的基础上扩充了中文词表并使用了中文数据进行二次预训练 Moss https://github.com/OpenLMLab/MOSS 七千亿中英文以及代码单词上预训练 baichuan-7B 1.2万亿tokens上训练的70亿参数模型，支持中英双语，上下文窗口长度为4096 AquilaChat-7B {{https://mp.weixin.qq.com/s/XkoLnFycG1jPWrNT3w_p-g}} CPM-Bee https://zhuanlan.zhihu.com/p/639459740 MPT-30b https://www.bilibili.com/video/BV1UW4y1D7N9/?share_source=copy_web </description>
+    </item>
+    <item>
+      <title>全球开源开放大模型发展情况</title>
+      <link>https://dujh22.github.io/model/%E5%85%A8%E7%90%83%E5%BC%80%E6%BA%90%E5%BC%80%E6%94%BE%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B1%95%E6%83%85%E5%86%B5/</link>
+      <pubDate>Tue, 19 Dec 2023 14:43:38 +0800</pubDate>
+      <guid>https://dujh22.github.io/model/%E5%85%A8%E7%90%83%E5%BC%80%E6%BA%90%E5%BC%80%E6%94%BE%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B1%95%E6%83%85%E5%86%B5/</guid>
+      <description>开源开放的大模型 旨在记录全球开源开放大模型发展情况&#xA;基础大模型 序号 名称 参数规模 数据规模 说明 1 LLaMA-2 7B,13B,34B,70B 2T 可商用 2 Falcon 7B,40B,180B 3.5T 数据集 RefinedWeb 3 baichuan-2 7B,13B 2.6T 开放，商用需授权，baichuan-1 4 InternLM 7B,20B 2.3T 开放，商用需授权 5 BLOOM 3B,7.1B,176B 366B 可商用，最为宽松，详细介绍 6 GALACTICA 6.7B,30B,120B 106B 开放的科学文本和数据 7 LLaMA 7B,13B,30B,65B 1.4T Meta，代码开源，模型“泄露”,不可商用，详细介绍 8 MOSS-moon 16B 700B 6.67x1022 FLOPs 9 ChatGLM2 6B 1.4T 10 StableLM 3B,7B 800B 11 RedPajama-INCITE 3B,7B 1T 12 GPT-NeoX 20B 3.15M 800GB的The Pile数据集 13 OpenLLaMA 3B,7B,13B 1T 14 MPT 7B,30B 1T 15 Pythia 2.</description>
+    </item>
+  </channel>
+</rss>
